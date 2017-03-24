@@ -1,0 +1,15 @@
+#Ignore everything but wp-content and .gitignore
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in wp-content except our uploads and theme
+
+wp-content/*
+!wp-content/themes
+!wp-content/uploads
+
+#Ignore everything in wp-content/themes except for my thesis theme
+
+wp-content/themes/*
+!wp-content/themes/jupiter
